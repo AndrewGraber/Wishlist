@@ -1,11 +1,11 @@
 # Wishlist
 A simple but useful program that generates a priority based wishlist ranked by different attributes for each item.
 
-*Usage*: upon compilation, requires two parameters:
+**Usage**: upon compilation, requires two parameters:
   1. The name of the file that has the values required
   2. The name for the output file
   
-*Input File Format:*
+**Input File Format:**
 The file should consist of however many entries you want to put in, one per line.
 For each entry, there should be a name (anything you want, less than or equal to 20 characters) followed by a colon.
 After the colon, there should be 3 floating point values. These are: "desire", "usefulness", "urgency" respectively.
@@ -15,7 +15,7 @@ After the colon, there should be 3 floating point values. These are: "desire", "
   
 Also, after the last item, there should be an empty line. I will get around to fixing this eventually
 
-*Example Input File:*
+**Example Input File:**
 ```
 Cat Food: 4 9 10
 A New Car: 10 8.5 1
